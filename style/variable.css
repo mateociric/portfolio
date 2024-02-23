@@ -1,0 +1,50 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --grey: #8c8c8c;
+    --col-page: #f7f7f7;
+    --bluish-gray: #292e31;
+    --bluish-gray-light: #383d40;
+    --reddish: #e11e22;
+
+    --fn-size-h1: calc(3.5 * 10 / 1600 * 100 * 1vw);
+    --fn-size-h5: calc(1.35 * 10 / 1600 * 100 * 1vw);
+    --fn-size-hgroup-a: calc(1.15 * 10 / 1600 * 100 * 1vw);
+    --fn-size-nav-a: calc(1.6 * 10 / 1600 * 100 * 1vw);
+    --fn-size-p: calc(1.4 * 10 / 1600 * 100 * 1vw);
+    --fn-size-footer-a: calc(4 * 10 / 1600 * 100 * 1vw);
+
+    --box-shadow-page: 0 calc(-1.3 * 10 / 1600 * 100 * 1vw) calc(1.5 * 10 / 1600 * 100 * 1vw) calc(.5 * 10 / 1600 * 100 * 1vw) #0000004d;
+    --box-shadow-nav-a: calc(-1.5 * 10 / 1600 * 100 * 1vw) 0 calc(1.5 * 10 / 1600 * 100 * 1vw) calc(.1 * 10 / 1600 * 100 * 1vw) #0000004d;
+    --box-shadow-anchorSelected: calc(-.5 * 10 / 1600 * 100 * 1vw) 0 calc(.5 * 10 / 1600 * 100 * 1vw) calc(.1 * 10 / 1600 * 100 * 1vw) #0000002a;
+    --text-shadow-red: 0 0 calc(.6 * 10 / 1600 * 100 * 1vw) #fc1c1cb3, 0 0 calc(1.2 * 10 / 1600 * 100 * 1vw) #ff2727b3, 0 0 calc(2.4 * 10 / 1600 * 100 * 1vw) #fc5353b3;
+    --text-shadow-blue: 0 0 calc(.3 * 10 / 1600 * 100 * 1vw) #1ccffcb3, 0 0 calc(.6 * 10 / 1600 * 100 * 1vw) #35ffbcb3, 0 0 calc(1.2 * 10 / 1600 * 100 * 1vw) #77fad3b3;
+
+    /*for orientation: landscape*/
+    --fn-size-h1-L: 3.5rem;
+    --fn-size-h5-L: 1.35rem;
+    --fn-size-hgroup-a-L: 1.15rem;
+    --fn-size-nav-a-L: 1.6rem;
+    --fn-size-p-L: 1.4rem;
+    --fn-size-footer-a-L: 4rem;
+
+    --box-shadow-page-L: 0 -1.3rem 1.5rem .5rem #0000004d;
+    --box-shadow-nav-a-L: -1.5rem 0rem 1.5rem .1rem #0000004d;
+    --box-shadow-anchorSelected-L: -.5rem 0rem .5rem .1rem #0000002a;
+    --text-shadow-red-L: 0 0 .6rem #fc1c1cb3, 0 0 1.2rem #ff2727b3, 0 0 2.4rem #fc5353b3;
+    --text-shadow-blue-L: 0 0 .3rem #1ccffcb3, 0 0 .6rem #35ffbcb3, 0 0 1.2rem #77fad3b3;
+
+    /*for orientation: portrait*/
+    --fn-size-h1-P: calc(3.5 * 10 / 1600 * 100 * 2 * 1vw);
+    --fn-size-h5-P: calc(1.35 * 10 / 1600 * 100 * 2 * 1vw);
+    --fn-size-hgroup-a-P: calc(1.15 * 10 / 1600 * 100 * 2 * 1vw);
+    --fn-size-nav-a-P: calc(1.6 * 10 / 1600 * 100 * 2 * 1vw);
+    --fn-size-p-P: calc(1.4 * 10 / 1600 * 100 * 2 * 1vw);
+    --fn-size-footer-a-P: calc(4 * 10 / 1600 * 100 * 2 * 1vw);
+
+    --box-shadow-page-P: 0 calc(-1.3 * 10 / 1600 * 100 * 2 * 1vw) calc(1.5 * 10 / 1600 * 100 * 2 * 1vw) calc(.5 * 10 / 1600 * 100 * 2 * 1vw) #0000004d;
+    --box-shadow-nav-a-P: calc(-1.5 * 10 / 1600 * 100 * 2 * 1vw) 0 calc(1.5 * 10 / 1600 * 100 * 2 * 1vw) calc(.1 * 10 / 1600 * 100 * 2 * 1vw) #0000004d;
+    --box-shadow-anchorSelected-P: calc(-.5 * 10 / 1600 * 100 * 2 * 1vw) 0 calc(.5 * 10 / 1600 * 100 * 2 * 1vw) calc(.1 * 10 / 1600 * 100 * 2 * 1vw) #0000002a;
+    --text-shadow-red-P: 0 0 calc(.6 * 10 / 1600 * 100 * 2 * 1vw) #fc1c1cb3, 0 0 calc(1.2 * 10 / 1600 * 100 * 2 * 1vw) #ff2727b3, 0 0 calc(2.4 * 10 / 1600 * 100 * 2 * 1vw) #fc5353b3;
+    --text-shadow-blue-P: 0 0 calc(.3 * 10 / 1600 * 100 * 2 * 1vw) #1ccffcb3, 0 0 calc(.6 * 10 / 1600 * 100 * 2 * 1vw) #35ffbcb3, 0 0 calc(1.2 * 10 / 1600 * 100 * 2 * 1vw) #77fad3b3;
+}
